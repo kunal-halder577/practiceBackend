@@ -5,7 +5,7 @@ const app = express();
 app.get("/", (req, res) => {
     res.send("Welcome");
 })
-app.get("/native", (_, res) => {
+app.get("/native", (req, res) => {
     res.send({
         "id": "hdk31ka8392uqp12bk",
         "name": "Kunal Halder"
